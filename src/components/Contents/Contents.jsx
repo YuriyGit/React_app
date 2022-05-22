@@ -1,6 +1,7 @@
+import classes from './Contents.module.css'
 const Contents = (props) => {
     return (
-        <div>
+        <div className={classes.content}>
             Contents
         </div>
     );

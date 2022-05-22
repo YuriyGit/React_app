@@ -1,6 +1,8 @@
+import classes from "./Navbar.module.css";
+
 const Navbar = (props) => {
     return (
-        <div>
+        <div className={classes.navbar}>
             Navbar
         </div>
     );

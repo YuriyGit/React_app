@@ -1,7 +1,11 @@
-.app_wrapper{
+.app_wrapper {
+    max-width: 1200px;
+    margin: 10px auto;
     display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: minmax(60px, 10vh) 85vh;;
     grid-template-areas:
     'header header'
     'navbar content';
-    border: 1px solid red;
+    gap: 10px;
 }
